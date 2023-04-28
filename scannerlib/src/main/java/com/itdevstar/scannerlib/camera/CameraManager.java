@@ -243,8 +243,33 @@ public final class CameraManager {
    * Like {@link #getFramingRect} but coordinates are in terms of the preview frame,
    * not UI / screen.
    *
+   * Changed by ITDevStar at 20230428 for the portrait mode
+   *
    * @return {@link Rect} expressing barcode scan area in terms of the preview size
    */
+  public synchronized Rect getFramingRectInPreview() {
+    if (framingRectInPreview == null) {
+      Rect framingRect = getFramingRect();
+      if (framingRect == null) {
+        return null;
+      }
+      Rect rect = new Rect(framingRect);
+      Point cameraResolution = configManager.getCameraResolution();
+      Point screenResolution = configManager.getScreenResolution();
+      if (cameraResolution == null || screenResolution == null) {
+        // Called early, before init even finished
+        return null;
+      }
+      rect.left = rect.left * cameraResolution.y / screenResolution.x;
+      rect.right = rect.right * cameraResolution.y / screenResolution.x;
+      rect.top = rect.top * cameraResolution.x / screenResolution.y;
+      rect.bottom = rect.bottom * cameraResolution.x / screenResolution.y;
+
+      framingRectInPreview = rect;
+    }
+    return framingRectInPreview;
+  }
+/*
   public synchronized Rect getFramingRectInPreview() {
     if (framingRectInPreview == null) {
       Rect framingRect = getFramingRect();
@@ -266,6 +291,7 @@ public final class CameraManager {
     }
     return framingRectInPreview;
   }
+ */
 
 
   /**

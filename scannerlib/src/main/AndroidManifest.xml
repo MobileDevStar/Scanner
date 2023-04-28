@@ -21,8 +21,9 @@
 
     <application>
 <!--        android:screenOrientation="fullSensor"-->
+<!--        android:screenOrientation="sensorLandscape"-->
         <activity android:name=".CaptureActivity"
-            android:screenOrientation="sensorLandscape"
+            android:screenOrientation="fullSensor"
             android:clearTaskOnLaunch="true"
             android:stateNotNeeded="true"
             android:theme="@style/CaptureTheme"
