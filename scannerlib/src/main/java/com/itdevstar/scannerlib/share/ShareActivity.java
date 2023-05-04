@@ -18,7 +18,7 @@ package com.itdevstar.scannerlib.share;
 
 import android.os.Build;
 import android.provider.ContactsContract;
-import com.google.zxing.core.BarcodeFormat;
+import com.google.zxing.BarcodeFormat;
 import com.itdevstar.scannerlib.Contents;
 import com.itdevstar.scannerlib.Intents;
 import com.itdevstar.scannerlib.R;

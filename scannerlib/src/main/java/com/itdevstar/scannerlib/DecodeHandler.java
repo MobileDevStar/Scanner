@@ -17,13 +17,13 @@
 package com.itdevstar.scannerlib;
 
 import android.graphics.Bitmap;
-import com.google.zxing.core.BinaryBitmap;
-import com.google.zxing.core.DecodeHintType;
-import com.google.zxing.core.MultiFormatReader;
-import com.google.zxing.core.PlanarYUVLuminanceSource;
-import com.google.zxing.core.ReaderException;
-import com.google.zxing.core.Result;
-import com.google.zxing.core.common.HybridBinarizer;
+import com.google.zxing.BinaryBitmap;
+import com.google.zxing.DecodeHintType;
+import com.google.zxing.MultiFormatReader;
+import com.google.zxing.PlanarYUVLuminanceSource;
+import com.google.zxing.ReaderException;
+import com.google.zxing.Result;
+import com.google.zxing.common.HybridBinarizer;
 
 import android.os.Bundle;
 import android.os.Handler;

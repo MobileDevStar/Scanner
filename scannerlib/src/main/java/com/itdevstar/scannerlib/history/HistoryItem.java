@@ -16,7 +16,7 @@
 
 package com.itdevstar.scannerlib.history;
 
-import com.google.zxing.core.Result;
+import com.google.zxing.Result;
 
 /**
  * Represents one item in the scan history.

@@ -16,9 +16,9 @@
 
 package com.itdevstar.scannerlib.result;
 
-import com.google.zxing.core.Result;
+import com.google.zxing.Result;
 import com.itdevstar.scannerlib.R;
-import com.google.zxing.core.client.result.ParsedResult;
+import com.google.zxing.result.ParsedResult;
 
 import android.app.Activity;
 

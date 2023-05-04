@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "Scanner"
 include ':app'
 include ':scannerlib'
+include ':zxing'

@@ -24,7 +24,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.google.zxing.core.Result;
+import com.google.zxing.Result;
 import com.itdevstar.scannerlib.R;
 
 import java.util.ArrayList;

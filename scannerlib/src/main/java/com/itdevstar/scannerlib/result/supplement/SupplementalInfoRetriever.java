@@ -33,10 +33,10 @@ import java.util.Collection;
 import java.util.concurrent.RejectedExecutionException;
 
 import com.itdevstar.scannerlib.history.HistoryManager;
-import com.google.zxing.core.client.result.ISBNParsedResult;
-import com.google.zxing.core.client.result.ParsedResult;
-import com.google.zxing.core.client.result.ProductParsedResult;
-import com.google.zxing.core.client.result.URIParsedResult;
+import com.google.zxing.result.ISBNParsedResult;
+import com.google.zxing.result.ParsedResult;
+import com.google.zxing.result.ProductParsedResult;
+import com.google.zxing.result.URIParsedResult;
 
 /**
  * Superclass of implementations which can asynchronously retrieve more information

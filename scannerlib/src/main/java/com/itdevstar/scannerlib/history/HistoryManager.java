@@ -16,8 +16,8 @@
 
 package com.itdevstar.scannerlib.history;
 
-import com.google.zxing.core.BarcodeFormat;
-import com.google.zxing.core.Result;
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.Result;
 import com.itdevstar.scannerlib.Intents;
 import com.itdevstar.scannerlib.PreferencesActivity;
 import com.itdevstar.scannerlib.result.ResultHandler;

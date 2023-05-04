@@ -17,16 +17,16 @@
 package com.itdevstar.scannerlib.result;
 
 import android.telephony.PhoneNumberUtils;
-import com.google.zxing.core.Result;
+import com.google.zxing.Result;
 import com.itdevstar.scannerlib.Contents;
 import com.itdevstar.scannerlib.Intents;
 import com.itdevstar.scannerlib.LocaleManager;
 import com.itdevstar.scannerlib.PreferencesActivity;
 import com.itdevstar.scannerlib.R;
 import com.itdevstar.scannerlib.book.SearchBookContentsActivity;
-import com.google.zxing.core.client.result.ParsedResult;
-import com.google.zxing.core.client.result.ParsedResultType;
-import com.google.zxing.core.client.result.ResultParser;
+import com.google.zxing.result.ParsedResult;
+import com.google.zxing.result.ParsedResultType;
+import com.google.zxing.result.ResultParser;
 
 import android.app.Activity;
 import android.app.AlertDialog;

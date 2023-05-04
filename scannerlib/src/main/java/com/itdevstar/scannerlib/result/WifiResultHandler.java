@@ -26,8 +26,8 @@ import android.widget.Toast;
 import com.itdevstar.scannerlib.CaptureActivity;
 import com.itdevstar.scannerlib.R;
 import com.itdevstar.scannerlib.wifi.WifiConfigManager;
-import com.google.zxing.core.client.result.ParsedResult;
-import com.google.zxing.core.client.result.WifiParsedResult;
+import com.google.zxing.result.ParsedResult;
+import com.google.zxing.result.WifiParsedResult;
 
 /**
  * Handles wifi access information.

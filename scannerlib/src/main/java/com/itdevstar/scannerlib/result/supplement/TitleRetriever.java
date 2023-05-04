@@ -20,7 +20,7 @@ import android.text.Html;
 import android.widget.TextView;
 import com.itdevstar.scannerlib.HttpHelper;
 import com.itdevstar.scannerlib.history.HistoryManager;
-import com.google.zxing.core.client.result.URIParsedResult;
+import com.google.zxing.result.URIParsedResult;
 
 import java.io.IOException;
 import java.util.regex.Matcher;

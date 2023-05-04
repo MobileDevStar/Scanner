@@ -21,9 +21,9 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.graphics.BitmapFactory;
 import android.provider.Browser;
-import com.google.zxing.core.BarcodeFormat;
-import com.google.zxing.core.DecodeHintType;
-import com.google.zxing.core.Result;
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.DecodeHintType;
+import com.google.zxing.Result;
 import com.itdevstar.scannerlib.camera.CameraManager;
 
 import android.app.Activity;

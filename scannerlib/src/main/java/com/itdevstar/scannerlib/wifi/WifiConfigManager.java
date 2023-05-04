@@ -24,7 +24,7 @@ import android.util.Log;
 
 import java.util.regex.Pattern;
 
-import com.google.zxing.core.client.result.WifiParsedResult;
+import com.google.zxing.result.WifiParsedResult;
 
 /**
  * @author Vikram Aggarwal

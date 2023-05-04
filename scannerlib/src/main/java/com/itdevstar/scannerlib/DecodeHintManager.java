@@ -26,7 +26,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.google.zxing.core.DecodeHintType;
+import com.google.zxing.DecodeHintType;
 
 /**
  * @author Lachezar Dobrev

@@ -18,7 +18,7 @@ package com.itdevstar.scannerlib;
 
 import android.content.Intent;
 import android.net.Uri;
-import com.google.zxing.core.BarcodeFormat;
+import com.google.zxing.BarcodeFormat;
 
 import java.util.Arrays;
 import java.util.EnumSet;

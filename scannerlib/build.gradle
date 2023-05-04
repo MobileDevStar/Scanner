@@ -10,7 +10,7 @@ android {
         minSdk 24
         targetSdk 33
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }
 
@@ -27,6 +27,7 @@ android {
 }
 
 dependencies {
+    implementation project(path: ':zxing')
 
 //    implementation 'com.android.support:appcompat-v7:28.0.0'
 //    testImplementation 'junit:junit:4.13.2'

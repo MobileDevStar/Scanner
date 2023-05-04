@@ -20,7 +20,7 @@ import android.graphics.Point;
 import android.view.Display;
 import android.view.MenuInflater;
 import android.view.WindowManager;
-import com.google.zxing.core.WriterException;
+import com.google.zxing.WriterException;
 import com.itdevstar.scannerlib.Contents;
 import com.itdevstar.scannerlib.FinishListener;
 import com.itdevstar.scannerlib.Intents;

@@ -17,7 +17,7 @@
 package com.itdevstar.scannerlib;
 
 import android.net.Uri;
-import com.google.zxing.core.Result;
+import com.google.zxing.Result;
 import com.itdevstar.scannerlib.result.ResultHandler;
 
 import java.io.UnsupportedEncodingException;

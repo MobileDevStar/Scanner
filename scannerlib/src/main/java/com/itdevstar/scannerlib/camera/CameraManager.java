@@ -23,7 +23,7 @@ import android.hardware.Camera;
 import android.os.Handler;
 import android.util.Log;
 import android.view.SurfaceHolder;
-import com.google.zxing.core.PlanarYUVLuminanceSource;
+import com.google.zxing.PlanarYUVLuminanceSource;
 import com.itdevstar.scannerlib.camera.open.OpenCamera;
 import com.itdevstar.scannerlib.camera.open.OpenCameraInterface;
 

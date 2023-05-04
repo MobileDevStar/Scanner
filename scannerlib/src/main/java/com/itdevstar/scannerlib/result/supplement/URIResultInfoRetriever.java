@@ -21,7 +21,7 @@ import android.widget.TextView;
 import com.itdevstar.scannerlib.HttpHelper;
 import com.itdevstar.scannerlib.history.HistoryManager;
 import com.itdevstar.scannerlib.R;
-import com.google.zxing.core.client.result.URIParsedResult;
+import com.google.zxing.result.URIParsedResult;
 
 import java.io.IOException;
 import java.net.URI;

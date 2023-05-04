@@ -16,11 +16,11 @@
 
 package com.itdevstar.scannerlib;
 
-import com.google.zxing.core.BarcodeFormat;
-import com.google.zxing.core.DecodeHintType;
-import com.google.zxing.core.Result;
-import com.google.zxing.core.ResultMetadataType;
-import com.google.zxing.core.ResultPoint;
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.DecodeHintType;
+import com.google.zxing.Result;
+import com.google.zxing.ResultMetadataType;
+import com.google.zxing.ResultPoint;
 import com.itdevstar.scannerlib.camera.CameraManager;
 import com.itdevstar.scannerlib.clipboard.ClipboardInterface;
 import com.itdevstar.scannerlib.history.HistoryActivity;
@@ -32,7 +32,6 @@ import com.itdevstar.scannerlib.result.ResultHandlerFactory;
 import com.itdevstar.scannerlib.result.supplement.SupplementalInfoRetriever;
 import com.itdevstar.scannerlib.share.ShareActivity;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;

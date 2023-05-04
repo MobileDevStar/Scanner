@@ -16,8 +16,8 @@
 
 package com.itdevstar.scannerlib;
 
-import com.google.zxing.core.ResultPoint;
-import com.google.zxing.core.ResultPointCallback;
+import com.google.zxing.ResultPoint;
+import com.google.zxing.ResultPointCallback;
 
 final class ViewfinderResultPointCallback implements ResultPointCallback {
 

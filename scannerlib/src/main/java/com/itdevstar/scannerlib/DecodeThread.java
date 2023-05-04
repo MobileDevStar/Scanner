@@ -16,9 +16,9 @@
 
 package com.itdevstar.scannerlib;
 
-import com.google.zxing.core.BarcodeFormat;
-import com.google.zxing.core.DecodeHintType;
-import com.google.zxing.core.ResultPointCallback;
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.DecodeHintType;
+import com.google.zxing.ResultPointCallback;
 
 import android.content.SharedPreferences;
 import android.os.Handler;

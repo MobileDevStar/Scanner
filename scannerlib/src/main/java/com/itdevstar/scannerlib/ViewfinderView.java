@@ -16,7 +16,7 @@
 
 package com.itdevstar.scannerlib;
 
-import com.google.zxing.core.ResultPoint;
+import com.google.zxing.ResultPoint;
 import com.itdevstar.scannerlib.camera.CameraManager;
 
 import android.annotation.SuppressLint;

@@ -17,8 +17,8 @@
 package com.itdevstar.scannerlib.result;
 
 import com.itdevstar.scannerlib.R;
-import com.google.zxing.core.client.result.EmailAddressParsedResult;
-import com.google.zxing.core.client.result.ParsedResult;
+import com.google.zxing.result.EmailAddressParsedResult;
+import com.google.zxing.result.ParsedResult;
 
 import android.app.Activity;
 
