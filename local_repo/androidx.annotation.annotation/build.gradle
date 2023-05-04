@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('androidx.annotation.annotation-1.5.0.jar'))

@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('androidx.lifecycle.lifecycle-extensions-2.2.0.aar'))

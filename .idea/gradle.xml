@@ -11,11 +11,26 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/local_repo" />
+            <option value="$PROJECT_DIR$/local_repo/androidx.activity.activity" />
+            <option value="$PROJECT_DIR$/local_repo/androidx.annotation.annotation" />
+            <option value="$PROJECT_DIR$/local_repo/androidx.appcompat.appcompat" />
+            <option value="$PROJECT_DIR$/local_repo/androidx.core.core" />
+            <option value="$PROJECT_DIR$/local_repo/androidx.fragment.fragment" />
+            <option value="$PROJECT_DIR$/local_repo/androidx.lifecycle.lifecycle-common" />
+            <option value="$PROJECT_DIR$/local_repo/androidx.lifecycle.lifecycle-extensions" />
+            <option value="$PROJECT_DIR$/local_repo/androidx.lifecycle.lifecycle-livedata" />
+            <option value="$PROJECT_DIR$/local_repo/androidx.lifecycle.lifecycle-runtime" />
+            <option value="$PROJECT_DIR$/local_repo/androidx.lifecycle.lifecycle-viewmodel" />
+            <option value="$PROJECT_DIR$/local_repo/androidx.lifecycle.lifecycle-viewmodel-savedstate" />
+            <option value="$PROJECT_DIR$/local_repo/androidx.savedstate.savedstate" />
+            <option value="$PROJECT_DIR$/qrscannerlib" />
             <option value="$PROJECT_DIR$/scannerlib" />
             <option value="$PROJECT_DIR$/zxing" />
           </set>
         </option>
       </GradleProjectSettings>
     </option>
+    <option name="offlineMode" value="true" />
   </component>
 </project>
